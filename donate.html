@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Madina Mosque & Islamic Centre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: '#10b981', secondary: '#f59e0b', accent: '#047857' },
+                    fontFamily: { sans: ['Inter', 'sans-serif'], arabic: ['Amiri', 'serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z"/></svg>
+                    <span class="font-semibold text-lg text-gray-900">Madina Mosque</span>
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-primary transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-primary transition-colors">About</a>
+                    <a href="madrasah.html" class="text-gray-600 hover:text-primary transition-colors">Madrasah</a>
+                    <a href="prayer-times.html" class="text-gray-600 hover:text-primary transition-colors">Prayer Times</a>
+                    <a href="donate.html" class="text-primary font-medium">Donate</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="gradient-bg pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Support Our Work</h1>
+            <p class="text-xl opacity-90">Your generous donations help us serve the community</p>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 text-center text-gray-900">Ways to Donate</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 hover:border-primary transition-colors">
+                    <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Easysearch.org</h3>
+                    <p class="text-gray-600 mb-6">Raise money when you search the web using Easysearch.org</p>
+                    <p class="text-gray-600 mb-6">Half a penny donated for every search. You can raise around £25 a year.</p>
+                    <a href="https://easysearch.org.uk" target="_blank" class="inline-block bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-accent transition-colors">Start Searching</a>
+                </div>
+
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 hover:border-primary transition-colors">
+                    <div class="w-16 h-16 bg-secondary/10 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Direct Debit</h3>
+                    <p class="text-gray-600 mb-6">Set up monthly contributions via GoCardless</p>
+                    <p class="text-gray-600 mb-6">First donation leaves immediately, then same day every month. Shows as "GOCARDLESS" on statements.</p>
+                    <a href="https://gocardless.com" target="_blank" class="inline-block bg-secondary text-white px-6 py-3 rounded-full font-semibold hover:bg-amber-600 transition-colors">Set Up Direct Debit</a>
+                </div>
+
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 hover:border-primary transition-colors">
+                    <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Bank Transfer</h3>
+                    <p class="text-gray-600 mb-6">Make a direct bank transfer</p>
+                    <div class="bg-gray-50 rounded-xl p-4 mb-4">
+                        <p class="text-sm text-gray-500">Bank Name</p>
+                        <p class="font-semibold">[Bank Name]</p>
+                        <p class="text-sm text-gray-500 mt-2">Sort Code</p>
+                        <p class="font-semibold">[XX-XX-XX]</p>
+                        <p class="text-sm text-gray-500 mt-2">Account Number</p>
+                        <p class="font-semibold">[XXXXXXXX]</p>
+                    </div>
+                    <p class="text-sm text-gray-500">Please use reference: DONATION</p>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-primary to-accent rounded-2xl p-8 md:p-12 text-white">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h3 class="text-3xl font-bold mb-4">Sponsor a Student</h3>
+                        <p class="text-white/90 mb-4">It is with the support and generous donations of the Muslim Community that the Madrasah has been able to provide various services.</p>
+                        <p class="text-white/90 mb-4">You will earn Thawaab-e-Jaariyah (perpetual reward), which continues even after one has passed away from this world.</p>
+                        <p class="text-white/90">Make a perpetual investment for the Akhirah.</p>
+                    </div>
+                    <div class="text-center md:text-right">
+                        <a href="https://gocardless.com" target="_blank" class="inline-block bg-white text-accent px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors">Sponsor a Student</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
